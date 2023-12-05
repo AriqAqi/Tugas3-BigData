@@ -42,4 +42,5 @@ Setelah itu kita klik Review + Create dan menunggu deploy dari Azure Synapse Wor
       GROUP BY C16
    ```
    ![image](https://github.com/AriqAqi/Tugas3-BigData/assets/115605338/ea7c05f0-7c6e-4f39-b9a9-cd42af4080e6)
+   
    Berikut output dari hasil query yang diatas, yang menghitung setiap OriginCityName disetiap data yang ada.
