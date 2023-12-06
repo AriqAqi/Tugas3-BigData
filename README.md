@@ -1,5 +1,24 @@
 # Tugas3-BigData
+## Azure Data Lake Storage Gen2 Setup
+Repositori ini menyediakan panduan langkah demi langkah untuk menyiapkan akun penyimpanan yang dapat digunakan dengan Azure Data Lake Storage Gen2. Ikuti langkah-langkah di bawah untuk membuat akun penyimpanan dengan namespace hierarki dan mengaktifkan kemampuan Data Lake Storage.
 
+## langkah-langkah
+### 1. Buat Akun Penyimpanan
+-Buka portal Azure.
+-Navigasi ke halaman "Create a resource."
+-Pada tab "Basics," pilih jenis akun antara dua opsi. Untuk kemampuan Data Lake Storage Gen2, pilih akun blok blob premium. Pilih "Premium" dan dalam dropdown "Premium account type," pilih "Block blobs."
+
+![image](https://github.com/AriqAqi/Tugas3-BigData/assets/84063377/8e88bdfe-0195-4999-b87f-906533a80372)
+
+-Di tab "Advanced," aktifkan pengaturan namespace hierarki.
+
+![image](https://github.com/AriqAqi/Tugas3-BigData/assets/84063377/c2d70b71-7a09-4678-a7d0-96c7a771a81e)
+
+### 2. Salin Data Sumber ke Akun Penyimpanan
+-Buka akun penyimpanan baru Anda di portal Azure.
+-Pilih "Storage browser" -> "Blob containers" -> "Add container" dan buat kontainer baru dengan nama data.
+-Di browser penyimpanan, unggah data  ke dalam kontainer data.
+![Screenshot 2023-12-05 153831](https://github.com/AriqAqi/Tugas3-BigData/assets/84063377/9cb67155-84f0-4cad-a22c-3858badf0517)
 
 ## Membuat Resource Azure Synapse Workspace
 Sebelumnya, Azure Synapse Workspace digunakan pada tugas ini untuk analisis sederhana. lalu kita akan membuat Resource Azure Synapse Workspace dengan mengisi :
